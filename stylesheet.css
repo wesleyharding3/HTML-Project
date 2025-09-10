@@ -19,3 +19,7 @@ body {
   display: flex;
   gap: 20px;
 }
+
+.navlink a:hover {
+  color: #00bfff; /* Light blue */
+}
