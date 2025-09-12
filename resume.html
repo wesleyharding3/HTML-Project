@@ -90,8 +90,15 @@
             <article>"According to our Q1 numbers, this employee has had the highest levels of productivity!" -Jan Hansen, Tech Solutions</article>
             <h2>What are your skills?</h2>
             <input id="skills">
-            <button onclick="console.log(document.getElementById('skills').value)">Submit</button>
+            <button onclick="showSkills()">Submit</button>
+            <p id="response"></p>
+            <script>
+                function showSkills() {
+                    const skillsValue = document.getElementById('skills').value;
+                    document.getElementById('response').innerText = "Wow! I love " + skillsValue;
 
+                }
+            </script>
         </section>
         <section id="contact">
             <h1 style="text-align: center;">Contact Me</h1>
