@@ -88,9 +88,12 @@
             </ul>
             <p> Here I will showcase one of my skills, which is using the <span style="color:blue;">span element!</span></p>
             <article>"According to our Q1 numbers, this employee has had the highest levels of productivity!" -Jan Hansen, Tech Solutions</article>
+            <button onlick="showMessage()">What are your skills?</button>
+            <p id="output"></p>
             <script>
-                let response = prompt("What are your skills?")
-                console.log("Wow! " + response + "is so cool!");
+                function showMessage() {
+                    document.getElementById("output").innerText="Wow! Thanks for sharing.";
+                }
             </script>
         </section>
         <section id="contact">
