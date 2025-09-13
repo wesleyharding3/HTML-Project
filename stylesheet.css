@@ -7,6 +7,10 @@ body {
     color:green;
 }
 
+h2 strong {
+    color:orangered;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
