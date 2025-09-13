@@ -3,6 +3,12 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+* {
+  color: #222;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
 #career {
     background-color:green;
 }
