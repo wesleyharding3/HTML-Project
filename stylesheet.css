@@ -3,6 +3,10 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+#career {
+    color:green;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
